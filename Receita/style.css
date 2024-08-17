@@ -1,0 +1,54 @@
+/* Ajuste geral da pagina, body, cor do fundo e fonte geral*/
+body{
+    background-image: linear-gradient(rgb(235, 186, 129),rgb(250, 237, 221));
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Ajuste do Título cor, tamanho e decoração do título */
+h1{
+    text-decoration: underline 3px;
+    color: rgb(70, 48, 15);
+    font-size: 50px;
+}
+
+/* Ajuste da imagem , borda, arredondamento da imagem, cor da borda e tamanho da imagem e borda */
+img{
+    border-radius: 40%;
+    width: 20%;
+    height: 20%;
+    border: solid;
+    border-color: rgb(188, 123, 37);
+    border-width: 5px;
+}
+
+/* Ajuste sub títulos, cor */
+h3{
+    color:rgb(70, 48, 15)
+}
+
+/* Ajuste sub títulos, cor */
+strong{
+    color: rgb(188, 123, 37);
+}
+
+/* Ajuste das listas, alinhamento ao centro bordas(cor da borda, tamanho e estilo), e tamanho*/
+ul, ol{
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+    border: dashed;
+    border-width: 8px;
+    padding: 2%;
+    border-color: rgb(126, 90, 12);
+}
+
+ul{
+    width: 18%;
+}
+
+ol{
+    width: 40%;
+}
